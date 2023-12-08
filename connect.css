@@ -2,7 +2,7 @@
 .col-1{width:8.33%;float:left}
 .col-2{width:16.66%;float:left}
 .col-3 {width:25%; float:left}
-.col-4{width:33.33%;float:left}
+.col-4{width:33.33%;float:right}
 .col-5{width:41.66%;float:left}
 .col-6{width:50%;float:left}
 .col-7{width:58.33%;float:left}
@@ -15,14 +15,17 @@
 /*header part css*/
 header{
 	position: sticky;
-	display: block;
-	padding:0px 60px 0px 80px;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	background: #fff;
 }
 header .header-menu ul li{
 	list-style: none;
 	display: inline-block;
 	padding:5px 15px 5px 0px;
-	margin: 2px;
+	margin: 5px;
 }
 header .header-menu ul li a{
 	text-decoration: none;
@@ -60,4 +63,46 @@ header .header-button .sign-in{
 }
 header .header-button .sign-in:hover{
 	padding: 11px;
+}
+/*home page css*/
+#Service-details{
+	margin:100px 100px 0px 100px;
+	background: #abb8c3;
+}
+#Service-details .first-service-details h4{
+	font-size: 24px;
+	line-height:30px;
+	color: #001649;
+	text-align: center;
+	font-family: arial;
+	font-weight: 400;
+}
+#Service-details .first-service-details h1{
+	text-align: center;
+	font-size: 58px;
+	font-family: arial;
+	line-height: 38px;
+	color: #001138;
+	font-weight:600;
+	letter-spacing:1px;
+}
+#service-icons .service-logos img{
+	height: 100px;
+	width:150px;
+	padding:25px;
+}
+#speed-details .prize-box .mbps a{
+	text-decoration: none;
+	font-family: arial;
+	color:#00af7d;
+}
+#speed-details .prize-box .mbps a:hover{
+	color: #001138;
+}
+#speed-details .prize-box .mbps{
+	margin: 0px 50px;
+	padding: 30px;
+	background: #fff;
+	box-shadow: 2px 2px 2px 2px lightgray;
+	border-radius: 5px;
 }
