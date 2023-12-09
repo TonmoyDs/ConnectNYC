@@ -67,7 +67,7 @@ header .header-button .sign-in:hover{
 /*home page css*/
 #Service-details{
 	margin:100px 100px 0px 100px;
-	background: #abb8c3;
+
 }
 #Service-details .first-service-details h4{
 	font-size: 24px;
@@ -100,6 +100,23 @@ header .header-button .sign-in:hover{
 	color: #001138;
 }
 #speed-details .prize-box .mbps{
+	margin: 0px 50px;
+	padding: 30px;
+	background: #fff;
+	box-shadow: 2px 2px 2px 2px lightgray;
+	border-radius: 5px;
+}
+#facilities-step{
+	display: flex;
+}
+#facilities-step .home-internet-img {
+	background:url("media/laptop.jpg");
+	background-size: cover;
+	position: center;
+	height: 100%;
+	width: 100%;
+}
+#residential-service .r-home-service{
 	margin: 0px 50px;
 	padding: 30px;
 	background: #fff;
