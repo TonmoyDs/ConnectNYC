@@ -123,3 +123,18 @@ header .header-button .sign-in:hover{
 	box-shadow: 2px 2px 2px 2px lightgray;
 	border-radius: 5px;
 }
+footer .bottom-info{
+	display: flex;
+}
+footer .bottom-info .contact-info{
+	margin: 20px;
+}
+footer .footer-social-part .footer-social-icons{
+float: right;
+}
+footer .footer-social-part .footer-social-icons i{
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+
+}
